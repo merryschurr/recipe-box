@@ -3,6 +3,4 @@ var router = express.Router();
 
 var myRecipeBox = require('../models/myRecipeBox');
 
-
-
 module.exports = router;

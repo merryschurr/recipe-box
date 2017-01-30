@@ -1,14 +1,19 @@
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
-// My Recipe Box Schema
-var myRecipeBoxSchema = mongoose.Schema({
-	myRecipeBox: {
-		type: String,
-		index:true
-	},
-	myRecipes: {
-		type: String
-	}
+var myRecipeBoxSchema = new Schema ({
+	author: String,
+	backgroundColor: String,
+	backgroundImage: String,
+	fontColor: String,
+	ingredients: String,
+	instructions: String,
+	mask: String,
+	readyInMinutes: Number,
+	servings: Number,
+	source: String,
+	title: String,
+
 });
 
 var myRecipeBox = module.exports = mongoose.model('myRecipeBox', UserSchema);

@@ -1,19 +1,18 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+// var mongoose = require('mongoose');
+// var Schema = mongoose.Schema;
 
-var myRecipeBoxSchema = new Schema ({
-	author: String,
-	backgroundColor: String,
-	backgroundImage: String,
-	fontColor: String,
-	ingredients: String,
-	instructions: String,
-	mask: String,
-	readyInMinutes: Number,
-	servings: Number,
-	source: String,
-	title: String,
+// var myRecipeBoxSchema = new Schema ({
+// 	title: String,
+// 	author: String,
+// 	yeild: String,
+// 	recipe: String,
 
-});
+// });
 
-var myRecipeBox = module.exports = mongoose.model('myRecipeBox', UserSchema);
+// var myRecipeBox = module.exports = mongoose.model('myRecipeBox', myRecipeBoxSchema);
+
+
+// function showInput() {
+//     document.getElementById('display').innerHTML = 
+//         document.getElementById("user_input").value;
+//     }

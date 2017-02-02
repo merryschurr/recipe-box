@@ -4,7 +4,7 @@ Application that allows you to get and save recipes to your personal account. Yo
 
 ## Getting Started
 
-https://guarded-garden-26774.herokuapp.com/
+https://fast-thicket-22143.herokuapp.com/
 
 ### Prerequisites
 

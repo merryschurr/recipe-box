@@ -84,8 +84,7 @@ app.use('/users', users);
 //   console.log('Server started on port '+ app.get('port'));
 // });
 
-var port = process.env.PORT || 8080;
-
+var port = process.env.PORT || 3000;
 app.listen(port, function() {
-    console.log('Our app is running on http://localhost:' + port);
+console.log("Listening on " + port);
 });
